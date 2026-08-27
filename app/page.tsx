@@ -9,10 +9,10 @@ export default function Home() {
           </a>
           <div className="nav-links">
             <a href="#profile">角色档案</a>
-            <a href="#views">三视图</a>
-            <a href="#expressions">动作表情</a>
+            <a href="#expressions">形象展示</a>
+            <a href="#applications">应用场景</a>
+            <a href="#visual">色彩视觉</a>
             <a href="#merch">周边延伸</a>
-            <a href="#stickers">表情包</a>
           </div>
         </nav>
 
@@ -139,9 +139,161 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="stickers section" id="stickers">
+        <div className="sticker-glow" />
+        <div className="section-head section-head-light shell">
+          <p><b>04</b> STICKER COLLECTION</p>
+          <span>THE LANGUAGE OF SMART COLLABORATION</span>
+        </div>
+        <div className="stickers-grid shell">
+          <div className="sticker-copy">
+            <p className="kicker">12 WORKDAY MOMENTS</p>
+            <h2>不用多说，<br />SHARKY 都懂。</h2>
+            <p>把工作协作中的每一次回应，变成轻松、有趣又有温度的表达。</p>
+            <div className="bubble-row"><span>收到！</span><span>加油！</span><span>思考中…</span></div>
+          </div>
+          <div className="sticker-sheet">
+            <img src="/assets/HAI-SHARKY-v2-stickers.png" alt="新版 Sharky 十二枚日常表情包集合" />
+            <span className="sheet-mark">12 × SHARKY</span>
+          </div>
+        </div>
+      </section>
+
+      <section className="seasonal section" id="seasonal">
+        <div className="section-head shell">
+          <p><b>05</b> SEASONAL SKINS</p>
+          <span>ONE CHARACTER · MANY FESTIVE MOMENTS</span>
+        </div>
+        <div className="seasonal-intro shell">
+          <div>
+            <p className="kicker">FESTIVE EDITION</p>
+            <h2>换上节日心情，<br />保持<span>同一个 SHARKY。</span></h2>
+          </div>
+          <p>在不改变核心识别的前提下，以帽饰、披肩和节日光色拓展角色的情绪边界，让每一次品牌沟通都有应景的新鲜感。</p>
+        </div>
+        <div className="skin-gallery shell">
+          <article className="skin-card skin-christmas">
+            <div className="skin-number">01</div>
+            <img src="/assets/HAI-SHARKY-skin-christmas-v2.png" alt="HAI SHARKY 圣诞节主题皮肤" />
+            <div className="skin-caption"><p>CHRISTMAS</p><h3>圣诞暖游</h3><span>绒感红帽 · 冰晶蓝光</span></div>
+          </article>
+          <article className="skin-card skin-new-year">
+            <div className="skin-number">02</div>
+            <img src="/assets/HAI-SHARKY-skin-new-year-v2.png" alt="HAI SHARKY 新年主题皮肤" />
+            <div className="skin-caption"><p>NEW YEAR</p><h3>新年启航</h3><span>赤红披肩 · 金色好意</span></div>
+          </article>
+          <article className="skin-card skin-halloween">
+            <div className="skin-number">03</div>
+            <img src="/assets/HAI-SHARKY-skin-halloween-v2.png" alt="HAI SHARKY 万圣节主题皮肤" />
+            <div className="skin-caption"><p>HALLOWEEN</p><h3>奇幻夜游</h3><span>魔法紫夜 · 南瓜微光</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section className="applications section" id="applications">
+        <div className="section-head section-head-light shell">
+          <p><b>06</b> BRAND APPLICATIONS</p>
+          <span>FROM SCREEN TO SPACE · FROM CULTURE TO ACTION</span>
+        </div>
+        <div className="applications-title shell">
+          <h2>不只是一个形象，<br />而是<span>品牌体验的连接点。</span></h2>
+          <p>让 SHARKY 进入数字产品、办公空间与每一次线下相遇，形成统一而有温度的海管家品牌记忆。</p>
+        </div>
+
+        <div className="application-grid shell">
+          <article className="application-card app-website">
+            <div className="app-meta"><span>01 / DIGITAL</span><b>官网</b></div>
+            <div className="browser-mockup">
+              <div className="browser-bar"><i /><i /><i /><span>HAI GUAN JIA · AI LOGISTICS</span></div>
+              <div className="browser-screen">
+                <div><small>SMART LOGISTICS</small><strong>让复杂运输，<br />更聪明地抵达。</strong><em>EXPLORE →</em></div>
+                <img src="/assets/HAI-SHARKY-v2-cutout.png" alt="" />
+              </div>
+            </div>
+          </article>
+
+          <article className="application-card app-office">
+            <div className="app-meta"><span>02 / SPACE</span><b>办公室</b></div>
+            <div className="office-mockup">
+              <div className="office-wall"><span>MAKE IT<br />HAPPEN.</span><img src="/assets/HAI-SHARKY-v2-cutout.png" alt="" /></div>
+              <div className="office-desk" /><div className="office-glass" />
+            </div>
+          </article>
+
+          <article className="application-card app-handbook">
+            <div className="app-meta"><span>03 / CULTURE</span><b>员工手册</b></div>
+            <div className="book-stack">
+              <div className="book book-back"><span>HAI GUAN JIA</span></div>
+              <div className="book book-front"><small>EMPLOYEE HANDBOOK</small><strong>与 SHARKY<br />一起向前</strong><img src="/assets/HAI-SHARKY-v2-cutout.png" alt="" /><em>2026</em></div>
+            </div>
+          </article>
+
+          <article className="application-card app-exhibition">
+            <div className="app-meta"><span>04 / EVENT</span><b>展会</b></div>
+            <div className="booth-mockup">
+              <div className="booth-header">HAI GUAN JIA <span>AI LOGISTICS</span></div>
+              <div className="booth-display"><img src="/assets/HAI-SHARKY-v2-cutout.png" alt="" /><strong>SMART<br />SAIL</strong></div>
+              <div className="booth-counter">AI · CONNECT · GLOBAL</div>
+            </div>
+          </article>
+        </div>
+
+        <div className="values-panel shell">
+          <div className="values-heading">
+            <p>05 / CULTURE CODE</p>
+            <h3>把价值观，变成<br />每个人都能感知的<span>行动语言。</span></h3>
+          </div>
+          <div className="value-grid">
+            <article><i>01</i><b>实事求是</b><span>从真实问题出发，用结果验证判断。</span></article>
+            <article><i>02</i><b>开放透明</b><span>让信息充分流动，让协作更简单。</span></article>
+            <article><i>03</i><b>客户导向</b><span>站在客户场景里，持续创造价值。</span></article>
+            <article><i>04</i><b>持续进化</b><span>像鲨鱼一样不停游动，保持成长。</span></article>
+            <article><i>05</i><b>Make it happen</b><span>把想法推进到落地，把承诺变成发生。</span></article>
+          </div>
+        </div>
+      </section>
+
+      <section className="visual-system section" id="visual">
+        <div className="section-head shell">
+          <p><b>07</b> COLOR &amp; VISUAL LANGUAGE</p>
+          <span>THE DESIGN DNA OF HAI SHARKY</span>
+        </div>
+        <div className="visual-title shell">
+          <h2>来自海洋的亲和力，<br />遇见<span>AI 的未来感。</span></h2>
+          <p>色彩、轮廓与发光细节共同构成 SHARKY 的识别系统：温暖但不幼稚，科技但不疏离。</p>
+        </div>
+
+        <div className="palette shell" aria-label="HAI SHARKY 品牌色彩">
+          <article className="swatch swatch-deep"><div /><p><b>DEEP SEA</b><span>#15214D</span></p></article>
+          <article className="swatch swatch-blue"><div /><p><b>OCEAN BLUE</b><span>#4B75F7</span></p></article>
+          <article className="swatch swatch-light"><div /><p><b>LIGHT CURRENT</b><span>#91B7FF</span></p></article>
+          <article className="swatch swatch-violet"><div /><p><b>AURORA VIOLET</b><span>#8F7DF7</span></p></article>
+          <article className="swatch swatch-cyan"><div /><p><b>GILL CYAN</b><span>#71F4FF</span></p></article>
+          <article className="swatch swatch-pink"><div /><p><b>GILL PINK</b><span>#FF9CDF</span></p></article>
+          <article className="swatch swatch-white"><div /><p><b>SAIL WHITE</b><span>#F8FBFF</span></p></article>
+        </div>
+
+        <div className="anatomy shell">
+          <div className="anatomy-stage">
+            <div className="anatomy-ring ring-one" /><div className="anatomy-ring ring-two" />
+            <img src="/assets/HAI-SHARKY-v2-cutout.png" alt="HAI SHARKY 形象元素理念解析" />
+            <span className="anatomy-point point-eye">专注竖眼<i>01</i></span>
+            <span className="anatomy-point point-gill">智能感知鳃<i>02</i></span>
+            <span className="anatomy-point point-fin">持续进化鳍<i>03</i></span>
+            <span className="anatomy-point point-body">亲和圆润体<i>04</i></span>
+          </div>
+          <div className="principle-list">
+            <article><i>01</i><div><h3>专注与可靠</h3><p>极简竖眼传达专注、清晰和稳定回应，让 AI 伙伴拥有可信赖的第一印象。</p></div></article>
+            <article><i>02</i><div><h3>实时感知</h3><p>蓝粉荧光鲨鱼鳃象征对运价、舱位和运输节点的敏锐感知。</p></div></article>
+            <article><i>03</i><div><h3>持续进化</h3><p>流线鳍尾与游动姿态对应“不停止进化”，也是海管家持续向前的行动隐喻。</p></div></article>
+            <article><i>04</i><div><h3>科技有温度</h3><p>海洋蓝连接物流业务，极光紫连接 AI 未来；圆润白色面罩消解技术距离感。</p></div></article>
+          </div>
+        </div>
+      </section>
+
       <section className="merch section" id="merch">
         <div className="section-head shell">
-          <p><b>04</b> BEYOND THE CHARACTER</p>
+          <p><b>08</b> BEYOND THE CHARACTER</p>
           <span>FROM DIGITAL PARTNER TO EVERYDAY COMPANION</span>
         </div>
         <div className="merch-title shell">
@@ -165,26 +317,6 @@ export default function Home() {
             <img src="/assets/HAI-SHARKY-v2-plush.png" alt="新版蓬松柔软的 HAI SHARKY 毛绒玩具" />
             <div><p>04 / SOFT FRIEND</p><h3>陪伴毛绒玩具</h3></div>
           </article>
-        </div>
-      </section>
-
-      <section className="stickers section" id="stickers">
-        <div className="sticker-glow" />
-        <div className="section-head section-head-light shell">
-          <p><b>05</b> STICKER COLLECTION</p>
-          <span>THE LANGUAGE OF SMART COLLABORATION</span>
-        </div>
-        <div className="stickers-grid shell">
-          <div className="sticker-copy">
-            <p className="kicker">12 WORKDAY MOMENTS</p>
-            <h2>不用多说，<br />SHARKY 都懂。</h2>
-            <p>把工作协作中的每一次回应，变成轻松、有趣又有温度的表达。</p>
-            <div className="bubble-row"><span>收到！</span><span>加油！</span><span>思考中…</span></div>
-          </div>
-          <div className="sticker-sheet">
-            <img src="/assets/HAI-SHARKY-v2-stickers.png" alt="新版 Sharky 十二枚日常表情包集合" />
-            <span className="sheet-mark">12 × SHARKY</span>
-          </div>
         </div>
       </section>
 
