@@ -95,7 +95,7 @@ export default function Home() {
           <div className="view-ghost-words" aria-hidden="true"><span>01</span><span>02</span><span>03</span></div>
           <div className="view-orbit view-orbit-one" />
           <div className="view-orbit view-orbit-two" />
-          <img src="/assets/HAI-SHARKY-v5-views.png" alt="无边框高清 HAI SHARKY 正面、侧面与背面三视图" />
+          <img src="/assets/HAI-SHARKY-v6-views.png" alt="清晰无散光 HAI SHARKY 正面、侧面与背面三视图" />
           <div className="view-labels"><span>FRONT</span><span>SIDE</span><span>BACK</span></div>
         </div>
       </section>
@@ -294,11 +294,11 @@ export default function Home() {
             <div><p>02 / TAKE ALONG</p><h3>随身钥匙挂件</h3></div>
           </article>
           <article className="product product-wide">
-            <img src="/assets/HAI-SHARKY-v7-tote.png" alt="角色化浅雾蓝 Sharky 手提袋" />
+            <img src="/assets/HAI-SHARKY-v8-tote.png" alt="标准袋型蓝色图案 Sharky 帆布袋" />
             <div><p>03 / DAILY OBJECT</p><h3>海洋刺绣帆布包</h3></div>
           </article>
           <article className="product product-small product-plush">
-            <img src="/assets/HAI-SHARKY-v5-plush.png" alt="抱着星光的直立 HAI SHARKY 毛绒公仔" />
+            <img src="/assets/HAI-SHARKY-v6-plush.png" alt="正常鲨鱼形态的 HAI SHARKY 毛绒公仔" />
             <div><p>04 / SOFT FRIEND</p><h3>陪伴毛绒玩具</h3></div>
           </article>
         </div>
