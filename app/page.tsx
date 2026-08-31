@@ -174,17 +174,17 @@ export default function Home() {
         <div className="skin-gallery shell">
           <article className="skin-card skin-christmas">
             <div className="skin-number">01</div>
-            <img src="/assets/HAI-SHARKY-skin-christmas-v3.png" alt="欢呼状态的 HAI SHARKY 圣诞节主题皮肤" />
+            <img src="/assets/HAI-SHARKY-skin-christmas-v4.png" alt="欢呼状态的 HAI SHARKY 圣诞节主题皮肤" />
             <div className="skin-caption"><p>CHRISTMAS</p><h3>圣诞暖游</h3><span>绒感红帽 · 冰晶蓝光</span></div>
           </article>
           <article className="skin-card skin-new-year">
             <div className="skin-number">02</div>
-            <img src="/assets/HAI-SHARKY-skin-new-year-v3.png" alt="欢呼状态的 HAI SHARKY 新年主题皮肤" />
+            <img src="/assets/HAI-SHARKY-skin-new-year-v4.png" alt="哈哈状态的 HAI SHARKY 新年主题皮肤" />
             <div className="skin-caption"><p>NEW YEAR</p><h3>新年启航</h3><span>赤红披肩 · 金色好意</span></div>
           </article>
           <article className="skin-card skin-halloween">
             <div className="skin-number">03</div>
-            <img src="/assets/HAI-SHARKY-skin-halloween-v3.png" alt="欢呼状态的 HAI SHARKY 万圣节主题皮肤" />
+            <img src="/assets/HAI-SHARKY-skin-halloween-v4.png" alt="好耶状态的 HAI SHARKY 万圣节主题皮肤" />
             <div className="skin-caption"><p>HALLOWEEN</p><h3>奇幻夜游</h3><span>魔法紫夜 · 南瓜微光</span></div>
           </article>
         </div>
@@ -286,19 +286,19 @@ export default function Home() {
         </div>
         <div className="merch-grid shell">
           <article className="product product-featured">
-            <img src="/assets/HAI-SHARKY-v3-giftbox.png" alt="欢呼状态的 Sharky 公仔收藏礼盒" />
+            <img src="/assets/HAI-SHARKY-v4-giftbox.png" alt="欢呼状态的 Sharky 公仔收藏礼盒" />
             <div><p>01 / COLLECTIBLE</p><h3>SHARKY 公仔礼盒</h3><span>为每一次相遇，保留仪式感。</span></div>
           </article>
           <article className="product product-small">
-            <img src="/assets/HAI-SHARKY-v3-keychain.png" alt="欢呼状态的 Sharky 钥匙挂件" />
+            <img src="/assets/HAI-SHARKY-v4-keychain.png" alt="哈哈状态的 Sharky 钥匙挂件" />
             <div><p>02 / TAKE ALONG</p><h3>随身钥匙挂件</h3></div>
           </article>
           <article className="product product-wide">
-            <img src="/assets/HAI-SHARKY-v5-tote.png" alt="欢呼状态的 Sharky 帆布包" />
+            <img src="/assets/HAI-SHARKY-v6-tote.png" alt="加油状态的 Sharky 帆布包" />
             <div><p>03 / DAILY OBJECT</p><h3>海洋刺绣帆布包</h3></div>
           </article>
           <article className="product product-small product-plush">
-            <img src="/assets/HAI-SHARKY-v3-plush.png" alt="欢呼状态的蓬松 HAI SHARKY 毛绒玩具" />
+            <img src="/assets/HAI-SHARKY-v4-plush.png" alt="好耶状态的蓬松 HAI SHARKY 毛绒玩具" />
             <div><p>04 / SOFT FRIEND</p><h3>陪伴毛绒玩具</h3></div>
           </article>
         </div>
