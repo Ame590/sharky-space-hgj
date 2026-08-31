@@ -11,8 +11,8 @@ export default function Home() {
             <a href="#profile">角色档案</a>
             <a href="#expressions">形象展示</a>
             <a href="#applications">应用场景</a>
-            <a href="#visual">色彩视觉</a>
             <a href="#merch">周边延伸</a>
+            <a href="#visual">色彩视觉</a>
           </div>
         </nav>
 
@@ -95,7 +95,7 @@ export default function Home() {
           <div className="view-ghost-words" aria-hidden="true"><span>01</span><span>02</span><span>03</span></div>
           <div className="view-orbit view-orbit-one" />
           <div className="view-orbit view-orbit-two" />
-          <img src="/assets/HAI-SHARKY-v2-views.png" alt="新版 Sharky 正面、侧面与背面三视图" />
+          <img src="/assets/HAI-SHARKY-v4-views.png" alt="高清 HAI SHARKY 正面、侧面与背面三视图" />
           <div className="view-labels"><span>FRONT</span><span>SIDE</span><span>BACK</span></div>
         </div>
       </section>
@@ -174,17 +174,17 @@ export default function Home() {
         <div className="skin-gallery shell">
           <article className="skin-card skin-christmas">
             <div className="skin-number">01</div>
-            <img src="/assets/HAI-SHARKY-skin-christmas-v2.png" alt="HAI SHARKY 圣诞节主题皮肤" />
+            <img src="/assets/HAI-SHARKY-skin-christmas-v3.png" alt="欢呼状态的 HAI SHARKY 圣诞节主题皮肤" />
             <div className="skin-caption"><p>CHRISTMAS</p><h3>圣诞暖游</h3><span>绒感红帽 · 冰晶蓝光</span></div>
           </article>
           <article className="skin-card skin-new-year">
             <div className="skin-number">02</div>
-            <img src="/assets/HAI-SHARKY-skin-new-year-v2.png" alt="HAI SHARKY 新年主题皮肤" />
+            <img src="/assets/HAI-SHARKY-skin-new-year-v3.png" alt="欢呼状态的 HAI SHARKY 新年主题皮肤" />
             <div className="skin-caption"><p>NEW YEAR</p><h3>新年启航</h3><span>赤红披肩 · 金色好意</span></div>
           </article>
           <article className="skin-card skin-halloween">
             <div className="skin-number">03</div>
-            <img src="/assets/HAI-SHARKY-skin-halloween-v2.png" alt="HAI SHARKY 万圣节主题皮肤" />
+            <img src="/assets/HAI-SHARKY-skin-halloween-v3.png" alt="欢呼状态的 HAI SHARKY 万圣节主题皮肤" />
             <div className="skin-caption"><p>HALLOWEEN</p><h3>奇幻夜游</h3><span>魔法紫夜 · 南瓜微光</span></div>
           </article>
         </div>
@@ -197,7 +197,7 @@ export default function Home() {
         </div>
         <div className="applications-title shell">
           <h2>不只是一个形象，<br />而是<span>品牌体验的连接点。</span></h2>
-          <p>让 SHARKY 进入数字产品、办公空间与每一次线下相遇，形成统一而有温度的海管家品牌记忆。</p>
+          <p>让 SHARKY 进入数字产品与员工文化，在每一次接触中形成统一而有温度的海管家品牌记忆。</p>
         </div>
 
         <div className="application-grid shell">
@@ -206,56 +206,40 @@ export default function Home() {
             <div className="browser-mockup">
               <div className="browser-bar"><i /><i /><i /><span>HAI GUAN JIA · AI LOGISTICS</span></div>
               <div className="browser-screen">
-                <div><small>SMART LOGISTICS</small><strong>让复杂运输，<br />更聪明地抵达。</strong><em>EXPLORE →</em></div>
+                <div><small>SMART LOGISTICS</small><strong>连接你我，<br />支撑多彩时间转动</strong><em>EXPLORE →</em></div>
                 <img src="/assets/HAI-SHARKY-v2-cutout.png" alt="" />
               </div>
             </div>
           </article>
 
-          <article className="application-card app-office">
-            <div className="app-meta"><span>02 / SPACE</span><b>办公室</b></div>
-            <div className="office-mockup">
-              <div className="office-wall"><span>MAKE IT<br />HAPPEN.</span><img src="/assets/HAI-SHARKY-v2-cutout.png" alt="" /></div>
-              <div className="office-desk" /><div className="office-glass" />
-            </div>
-          </article>
-
           <article className="application-card app-handbook">
-            <div className="app-meta"><span>03 / CULTURE</span><b>员工手册</b></div>
+            <div className="app-meta"><span>02 / CULTURE</span><b>员工手册</b></div>
             <div className="book-stack">
               <div className="book book-back"><span>HAI GUAN JIA</span></div>
               <div className="book book-front"><small>EMPLOYEE HANDBOOK</small><strong>与 SHARKY<br />一起向前</strong><img src="/assets/HAI-SHARKY-v2-cutout.png" alt="" /><em>2026</em></div>
             </div>
           </article>
 
-          <article className="application-card app-exhibition">
-            <div className="app-meta"><span>04 / EVENT</span><b>展会</b></div>
-            <div className="booth-mockup">
-              <div className="booth-header">HAI GUAN JIA <span>AI LOGISTICS</span></div>
-              <div className="booth-display"><img src="/assets/HAI-SHARKY-v2-cutout.png" alt="" /><strong>SMART<br />SAIL</strong></div>
-              <div className="booth-counter">AI · CONNECT · GLOBAL</div>
-            </div>
-          </article>
         </div>
 
         <div className="values-panel shell">
           <div className="values-heading">
-            <p>05 / CULTURE CODE</p>
-            <h3>把价值观，变成<br />每个人都能感知的<span>行动语言。</span></h3>
+            <p>CULTURE CODE</p>
+            <h3>五个词，<br />指向同一种<span>行动方向。</span></h3>
           </div>
-          <div className="value-grid">
-            <article><i>01</i><b>实事求是</b><span>从真实问题出发，用结果验证判断。</span></article>
-            <article><i>02</i><b>开放透明</b><span>让信息充分流动，让协作更简单。</span></article>
-            <article><i>03</i><b>客户导向</b><span>站在客户场景里，持续创造价值。</span></article>
-            <article><i>04</i><b>持续进化</b><span>像鲨鱼一样不停游动，保持成长。</span></article>
-            <article><i>05</i><b>Make it happen</b><span>把想法推进到落地，把承诺变成发生。</span></article>
+          <div className="value-grid value-grid-words">
+            <span>实事求是</span>
+            <span>开放透明</span>
+            <span>客户导向</span>
+            <span>持续进化</span>
+            <span>Make it happen</span>
           </div>
         </div>
       </section>
 
       <section className="visual-system section" id="visual">
         <div className="section-head shell">
-          <p><b>07</b> COLOR &amp; VISUAL LANGUAGE</p>
+          <p><b>08</b> COLOR &amp; VISUAL LANGUAGE</p>
           <span>THE DESIGN DNA OF HAI SHARKY</span>
         </div>
         <div className="visual-title shell">
@@ -293,7 +277,7 @@ export default function Home() {
 
       <section className="merch section" id="merch">
         <div className="section-head shell">
-          <p><b>08</b> BEYOND THE CHARACTER</p>
+          <p><b>07</b> BEYOND THE CHARACTER</p>
           <span>FROM DIGITAL PARTNER TO EVERYDAY COMPANION</span>
         </div>
         <div className="merch-title shell">
@@ -302,19 +286,19 @@ export default function Home() {
         </div>
         <div className="merch-grid shell">
           <article className="product product-featured">
-            <img src="/assets/HAI-SHARKY-v2-giftbox.png" alt="新版 Sharky 公仔收藏礼盒" />
+            <img src="/assets/HAI-SHARKY-v3-giftbox.png" alt="欢呼状态的 Sharky 公仔收藏礼盒" />
             <div><p>01 / COLLECTIBLE</p><h3>SHARKY 公仔礼盒</h3><span>为每一次相遇，保留仪式感。</span></div>
           </article>
           <article className="product product-small">
-            <img src="/assets/HAI-SHARKY-v2-keychain.png" alt="新版 Sharky 钥匙挂件" />
+            <img src="/assets/HAI-SHARKY-v3-keychain.png" alt="欢呼状态的 Sharky 钥匙挂件" />
             <div><p>02 / TAKE ALONG</p><h3>随身钥匙挂件</h3></div>
           </article>
           <article className="product product-wide">
-            <img src="/assets/HAI-SHARKY-v4-tote-cutout.png" alt="新版 Sharky 帆布包" />
+            <img src="/assets/HAI-SHARKY-v5-tote.png" alt="欢呼状态的 Sharky 帆布包" />
             <div><p>03 / DAILY OBJECT</p><h3>海洋刺绣帆布包</h3></div>
           </article>
           <article className="product product-small product-plush">
-            <img src="/assets/HAI-SHARKY-v2-plush.png" alt="新版蓬松柔软的 HAI SHARKY 毛绒玩具" />
+            <img src="/assets/HAI-SHARKY-v3-plush.png" alt="欢呼状态的蓬松 HAI SHARKY 毛绒玩具" />
             <div><p>04 / SOFT FRIEND</p><h3>陪伴毛绒玩具</h3></div>
           </article>
         </div>
