@@ -95,7 +95,7 @@ export default function Home() {
           <div className="view-ghost-words" aria-hidden="true"><span>01</span><span>02</span><span>03</span></div>
           <div className="view-orbit view-orbit-one" />
           <div className="view-orbit view-orbit-two" />
-          <img src="/assets/HAI-SHARKY-v6-views.png" alt="清晰无散光 HAI SHARKY 正面、侧面与背面三视图" />
+          <img src="/assets/HAI-SHARKY-v7-views.png" alt="基于 Hero 主形象制作的 HAI SHARKY 正面、侧面与背面三视图" />
           <div className="view-labels"><span>FRONT</span><span>SIDE</span><span>BACK</span></div>
         </div>
       </section>
@@ -206,7 +206,7 @@ export default function Home() {
             <div className="browser-mockup">
               <div className="browser-bar"><i /><i /><i /><span>HAI GUAN JIA · AI LOGISTICS</span></div>
               <div className="browser-screen">
-                <div><small>SMART LOGISTICS</small><strong>连接你我，<br />支撑多彩时间转动</strong><em>EXPLORE →</em></div>
+                <div><small>SMART LOGISTICS</small><strong>连接你我，<br />支撑多彩世界转动</strong><em>EXPLORE →</em></div>
                 <img src="/assets/HAI-SHARKY-v2-cutout.png" alt="" />
               </div>
             </div>
