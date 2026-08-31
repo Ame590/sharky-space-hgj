@@ -286,19 +286,19 @@ export default function Home() {
         </div>
         <div className="merch-grid shell">
           <article className="product product-featured">
-            <img src="/assets/HAI-SHARKY-v4-giftbox.png" alt="欢呼状态的 Sharky 公仔收藏礼盒" />
+            <img src="/assets/HAI-SHARKY-v5-giftbox.png" alt="蓝紫棋盘纹抽屉式 Sharky 公仔收藏礼盒" />
             <div><p>01 / COLLECTIBLE</p><h3>SHARKY 公仔礼盒</h3><span>为每一次相遇，保留仪式感。</span></div>
           </article>
           <article className="product product-small">
-            <img src="/assets/HAI-SHARKY-v5-keychain.png" alt="透明软胶保护套中的哈哈状态 Sharky 挂件" />
+            <img src="/assets/HAI-SHARKY-v6-keychain.png" alt="无外罩哈哈状态 Sharky 公仔挂件" />
             <div><p>02 / TAKE ALONG</p><h3>随身钥匙挂件</h3></div>
           </article>
           <article className="product product-wide">
-            <img src="/assets/HAI-SHARKY-v6-tote.png" alt="加油状态的 Sharky 帆布包" />
+            <img src="/assets/HAI-SHARKY-v7-tote.png" alt="角色化浅雾蓝 Sharky 手提袋" />
             <div><p>03 / DAILY OBJECT</p><h3>海洋刺绣帆布包</h3></div>
           </article>
           <article className="product product-small product-plush">
-            <img src="/assets/HAI-SHARKY-v4-plush.png" alt="好耶状态的蓬松 HAI SHARKY 毛绒玩具" />
+            <img src="/assets/HAI-SHARKY-v5-plush.png" alt="抱着星光的直立 HAI SHARKY 毛绒公仔" />
             <div><p>04 / SOFT FRIEND</p><h3>陪伴毛绒玩具</h3></div>
           </article>
         </div>
