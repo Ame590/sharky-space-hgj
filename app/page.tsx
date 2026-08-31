@@ -95,7 +95,7 @@ export default function Home() {
           <div className="view-ghost-words" aria-hidden="true"><span>01</span><span>02</span><span>03</span></div>
           <div className="view-orbit view-orbit-one" />
           <div className="view-orbit view-orbit-two" />
-          <img src="/assets/HAI-SHARKY-v4-views.png" alt="高清 HAI SHARKY 正面、侧面与背面三视图" />
+          <img src="/assets/HAI-SHARKY-v5-views.png" alt="无边框高清 HAI SHARKY 正面、侧面与背面三视图" />
           <div className="view-labels"><span>FRONT</span><span>SIDE</span><span>BACK</span></div>
         </div>
       </section>
@@ -174,17 +174,17 @@ export default function Home() {
         <div className="skin-gallery shell">
           <article className="skin-card skin-christmas">
             <div className="skin-number">01</div>
-            <img src="/assets/HAI-SHARKY-skin-christmas-v4.png" alt="欢呼状态的 HAI SHARKY 圣诞节主题皮肤" />
+            <img src="/assets/HAI-SHARKY-skin-christmas-v5.png" alt="浅雾蓝欢呼状态的 HAI SHARKY 圣诞节主题皮肤" />
             <div className="skin-caption"><p>CHRISTMAS</p><h3>圣诞暖游</h3><span>绒感红帽 · 冰晶蓝光</span></div>
           </article>
           <article className="skin-card skin-new-year">
             <div className="skin-number">02</div>
-            <img src="/assets/HAI-SHARKY-skin-new-year-v4.png" alt="哈哈状态的 HAI SHARKY 新年主题皮肤" />
+            <img src="/assets/HAI-SHARKY-skin-new-year-v5.png" alt="浅雾蓝哈哈状态的 HAI SHARKY 新年主题皮肤" />
             <div className="skin-caption"><p>NEW YEAR</p><h3>新年启航</h3><span>赤红披肩 · 金色好意</span></div>
           </article>
           <article className="skin-card skin-halloween">
             <div className="skin-number">03</div>
-            <img src="/assets/HAI-SHARKY-skin-halloween-v4.png" alt="好耶状态的 HAI SHARKY 万圣节主题皮肤" />
+            <img src="/assets/HAI-SHARKY-skin-halloween-v5.png" alt="浅雾蓝好耶状态的 HAI SHARKY 万圣节主题皮肤" />
             <div className="skin-caption"><p>HALLOWEEN</p><h3>奇幻夜游</h3><span>魔法紫夜 · 南瓜微光</span></div>
           </article>
         </div>
@@ -290,7 +290,7 @@ export default function Home() {
             <div><p>01 / COLLECTIBLE</p><h3>SHARKY 公仔礼盒</h3><span>为每一次相遇，保留仪式感。</span></div>
           </article>
           <article className="product product-small">
-            <img src="/assets/HAI-SHARKY-v4-keychain.png" alt="哈哈状态的 Sharky 钥匙挂件" />
+            <img src="/assets/HAI-SHARKY-v5-keychain.png" alt="透明软胶保护套中的哈哈状态 Sharky 挂件" />
             <div><p>02 / TAKE ALONG</p><h3>随身钥匙挂件</h3></div>
           </article>
           <article className="product product-wide">
